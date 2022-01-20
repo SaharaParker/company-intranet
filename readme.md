@@ -6,7 +6,7 @@
 ###Process
 - [x] Create company-intranet Folder
 - [x] Create Github Repo
-- [ ] Balsamiq Mockup
+- [X] Balsamiq Mockup
 - [ ] Create HTML Folders
 - [ ] Tailwindcss Installation
 - [ ] Create app.js Folder
