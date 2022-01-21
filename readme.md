@@ -7,9 +7,7 @@
 - [x] Create company-intranet Folder
 - [x] Create Github Repo
 - [X] Balsamiq Mockup
-- [ ] Create HTML Folders
-- [ ] Tailwindcss Installation
-- [ ] Create app.js Folder
+- [x] Tailwindcss Installation
 - [ ] Code for Login Page
   - [ ] HTML
   - [ ] CSS
