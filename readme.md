@@ -1,7 +1,7 @@
 ### Problem
-- [ ] 1. staff member can login
-- [ ] 2. staff can view company news
-- [ ] 3. staff can add company news
+- [ ] staff member can login
+- [ ] staff can view company news
+- [ ] staff can add company news
 
 ###Process
 - [x] Create company-intranet Folder
@@ -10,15 +10,15 @@
 - [ ] Create HTML Folders
 - [ ] Tailwindcss Installation
 - [ ] Create app.js Folder
--- [ ] Code for Login Page
+- [ ] Code for Login Page
   - [ ] HTML
   - [ ] CSS
   - [ ] JavaScript
--- [ ] Code for Company News Page
+- [ ] Code for Company News Page
   - [ ] HTML
   - [ ] CSS
   - [ ] JavaScript
--- [ ] Code for Add News Page
+- [ ] Code for Add News Page
   - [ ] HTML
   - [ ] CSS
   - [ ] JavaScript
