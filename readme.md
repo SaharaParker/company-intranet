@@ -9,8 +9,8 @@
 - [X] Balsamiq Mockup
 - [x] Tailwindcss Installation
 - [ ] Code for Login Page
-  - [ ] HTML
-  - [ ] CSS
+  - [x] HTML
+  - [x] CSS
   - [ ] JavaScript
 - [ ] Code for Company News Page
   - [ ] HTML
