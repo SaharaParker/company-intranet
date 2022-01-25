@@ -11,7 +11,7 @@
 - [ ] Code for Login Page
   - [x] HTML
   - [x] CSS
-  - [ ] JavaScript
+  - [x] JavaScript
 - [ ] Code for Company News Page
   - [ ] HTML
   - [ ] CSS
