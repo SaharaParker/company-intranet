@@ -17,8 +17,11 @@ function checkInputIsEmpty (input){
         const errorMessage = document.createElement('div');
         errorMessage.innerHTML = '<p class="p-6 bg-red-500 text-white font-bold">Email or Password required.</p>';
         errorDiv.appendChild(errorMessage);
+    }else{
+        window.location.href='company-news.html';
     }
 }
 
-const errorDiv = document.getElementById('error-message')
-const form = document.getElementById('')
+// const errDiv = document.getElementById('error-message');
+// const form = document.getElementById('add-news');
+// const nameInput = document.getElementById('author');
