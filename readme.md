@@ -13,16 +13,12 @@
   - [x] CSS
   - [x] JavaScript
 - [ ] Code for Company News Page
-  - [ ] HTML
-  - [ ] CSS
-  - [ ] JavaScript
-- [ ] Code for Add News Page
-  - [ ] HTML
-  - [ ] CSS
+  - [x] HTML
+  - [x] CSS
   - [ ] JavaScript
 - [ ] Fix Any Errors
 - [ ] Make Sure Everything is Functioning
-- [ ] Vercel
+- [x] Vercel
 
 
 

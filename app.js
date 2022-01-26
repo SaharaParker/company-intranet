@@ -1,27 +1,38 @@
+//index.html
 const errorDiv = document.getElementById('errorMsg')
-const form = document.getElementById('login')
+const loginForm = document.getElementById('login')
 const passwordInput = document.getElementById('password');
 const emailInput = document.getElementById('email');
 
-form.addEventListener('submit',(evt)=> {
+loginForm.addEventListener('submit',(evt)=> {
     evt.preventDefault();
-    checkInputIsEmpty(passwordInput);
-    checkInputIsEmpty(emailInput);
-    // console.log("hello");
-})
 
-function checkInputIsEmpty (input){
-    // console.log("hello")
-    if (input.value === ""){
-        // alert("Email or Password Required!");
-        const errorMessage = document.createElement('div');
-        errorMessage.innerHTML = '<p class="p-6 bg-red-500 text-white font-bold">Email or Password required.</p>';
-        errorDiv.appendChild(errorMessage);
-    }else{
-        window.location.href='company-news.html';
+    if(
+        checkIsNotEmpty(emailInput,"Email address is required")&&
+        checkIsNotEmpty(passwordInput,"Password is required.")
+){
+        window.location.href='/company-news.html';
+
     }
+    // console.log("hello")
+});
+
+function checkIsNotEmpty (domInput, errorMessage){
+
+    if (domInput.value === ""){
+        // alert("Email or Password Required!");
+        console.log(errorMessage);
+
+        const div = document.createElement('div');
+        div.innerHTML = `<p class="bg-red-400 text-white"> ${errorMessage}</p>`;
+
+        errorDiv.appendChild(div);
+
+        return false;
+    }
+    return true;
 }
 
-// const errDiv = document.getElementById('error-message');
-// const form = document.getElementById('add-news');
-// const nameInput = document.getElementById('author');
+//company-news.html
+
+
