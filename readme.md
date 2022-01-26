@@ -1,6 +1,6 @@
 ### Problem
-- [ ] staff member can login
-- [ ] staff can view company news
+- [x] staff member can login
+- [x] staff can view company news
 - [ ] staff can add company news
 
 ###Process
