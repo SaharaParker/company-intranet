@@ -19,3 +19,6 @@ function checkInputIsEmpty (input){
         errorDiv.appendChild(errorMessage);
     }
 }
+
+const errorDiv = document.getElementById('error-message')
+const form = document.getElementById('')
