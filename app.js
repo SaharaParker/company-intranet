@@ -5,6 +5,7 @@ const passwordInput = document.getElementById('password');
 const emailInput = document.getElementById('email');
 
 loginForm.addEventListener('submit',(evt)=> {
+    errorDiv.innerHTML = ""
     evt.preventDefault();
 
     if(
@@ -33,6 +34,6 @@ function checkIsNotEmpty (domInput, errorMessage){
     return true;
 }
 
-//company-news.html
+
 
 
