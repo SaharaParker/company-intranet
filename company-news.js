@@ -20,7 +20,6 @@
 // console.log(news1);
 // console.log(news2);
 // console.log(news3);
-const newsShow = document.getElementById('compnews');
 
 const allNews = [{
         fullName: "Alice Atom",
@@ -36,4 +35,9 @@ const allNews = [{
 
 console.log(allNews);
 
+const newsShow = document.getElementById('compnews');
+
+for(const key in allNews){
+    const newsCardDiv
+}
 
