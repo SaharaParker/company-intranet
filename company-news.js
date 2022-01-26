@@ -20,7 +20,7 @@
 // console.log(news1);
 // console.log(news2);
 // console.log(news3);
-
+const newsShow = document.getElementById('compnews')
 
 const allNews = [{
         fullName: "Alice Atom",
