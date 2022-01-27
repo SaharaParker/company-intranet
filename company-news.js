@@ -37,6 +37,10 @@ form.addEventListener('submit',(evt)=>{
     console.log(allNews);
     console.log(addedNews)
 
+    allNews = [...allNews, addedNews];
+
+    console.log(allNews);
+
 });
 
 
