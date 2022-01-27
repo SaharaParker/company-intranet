@@ -26,6 +26,7 @@ form.addEventListener('submit',(evt)=>{
 
     console.log(document.getElementById('author-new').value);
     console.log(document.getElementById('date-new').value);
+    console.log(document.getElementById('new-content').value);
 
 });
 
