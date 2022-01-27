@@ -28,6 +28,13 @@ form.addEventListener('submit',(evt)=>{
     console.log(document.getElementById('date-new').value);
     console.log(document.getElementById('new-content').value);
 
+    const addedNews = {
+        fullName:document.getElementById('author-new').value,
+        date:document.getElementById('date-new').value,
+        content:document.getElementById('new-content').value,
+    }
+
+
 });
 
 
