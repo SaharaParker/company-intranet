@@ -20,6 +20,15 @@ const newsShow = document.getElementById('compnews');
 
 const form = document.getElementById('add-news');
 
+//event listener for add-news
+form.addEventListener('submit',(evt)=>{
+    evt.preventDefault();
+    console.log("HI!");
+});
+
+
+
+//loop showing all news items
 for(const key in allNews){
     const newsExist = document.createElement('div');
 
