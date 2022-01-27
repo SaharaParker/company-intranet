@@ -34,8 +34,8 @@ form.addEventListener('submit',(evt)=>{
         content:document.getElementById('new-content').value,
 
     }
-    console.log(allNews);
-    console.log(addedNews)
+    // console.log(allNews);
+    // console.log(addedNews)
 
     allNews = [...allNews, addedNews];
 
@@ -43,21 +43,24 @@ form.addEventListener('submit',(evt)=>{
 
 });
 
+function displayAllNews(items) {
+    newsExist = ""
 
+    for(const key in items){
+        const newsExist = document.createElement('div');
 
-//loop showing all news items
-for(const key in allNews){
-    const newsExist = document.createElement('div');
-
-    newsExist.innerHTML=` 
+        newsExist.innerHTML=` 
             <div>
-            <h3 class="font-semibold text-lg underline">${allNews[key].fullName}</h3>
-            <h5 class="mb-2">${allNews[key].date}</h5>
-            <p class="mb-2">${allNews[key].content}</p>
-        </div>`
-    ;
+            <h3 class="font-semibold text-lg underline">${items[key].fullName}</h3>
+            <h5 class="mb-2">${items[key].date}</h5>
+            <p class="mb-2">${items[key].content}</p>
+        </div>
+    `;
 
-    newsShow.appendChild(newsExist); //adds new div to existing div(in html)
+        newsShow.appendChild(newsExist); //adds new div to existing div
+    }
 }
+
+displayAllNews(allNews);
 
 
