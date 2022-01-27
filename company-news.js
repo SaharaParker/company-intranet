@@ -41,9 +41,9 @@ for(const key in allNews){
 
     newsExist.innerHTML=` 
             <div>
-            <h3 className="font-semibold text-lg underline">${allNews[key].fullName}</h3>
-            <h5 className="mb-2">${allNews[key].date}</h5>
-            <p className="mb-2">${allNews[key].content}</p>
+            <h3 class="font-semibold text-lg underline">${allNews[key].fullName}</h3>
+            <h5 class="mb-2">${allNews[key].date}</h5>
+            <p class="mb-2">${allNews[key].content}</p>
         </div>`
     ;
 
