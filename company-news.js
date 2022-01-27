@@ -33,20 +33,17 @@ const allNews = [{
             content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur ducimus eveniet facere id, ipsa iusto provident quas veritatis!"
 }]; //made allnews into an array(list)
 
-console.log(allNews); //shows that array in the console
+console.log(allNews);
 
-const newsShow = document.getElementById('compnews'); //set a const for existing company news
-
+const newsShow = document.getElementById('compnews');
 for(const key in allNews){
-    const newsExist = document.createElement('div'); //creates a div
+    const newsExist = document.createElement('div');
 
-    newsExist.innerHTML=` //contents of created div
+    newsExist.innerHTML=` 
             <div>
-            <h3 className="font-semibold text-lg underline" id="author">Alice Atom</h3>
-            <h5 className="mb-2" id="date">12-27-2021</h5>
-            <p className="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur
-                ducimus eveniet facere id, ipsa iusto provident quas veritatis!
-            </p>
+            <h3 className="font-semibold text-lg underline">${allNews[key].fullName}</h3>
+            <h5 className="mb-2">${allNews[key].date}</h5>
+            <p className="mb-2">${allNews[key].content}</p>
         </div>`
     ;
 
