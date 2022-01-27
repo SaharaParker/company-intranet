@@ -24,16 +24,17 @@ const form = document.getElementById('add-news');
 form.addEventListener('submit',(evt)=>{
     evt.preventDefault();
 
-    console.log(document.getElementById('author-new').value);
-    console.log(document.getElementById('date-new').value);
-    console.log(document.getElementById('new-content').value);
+    // console.log(document.getElementById('author-new').value);
+    // console.log(document.getElementById('date-new').value);
+    // console.log(document.getElementById('new-content').value);
 
     const addedNews = {
         fullName:document.getElementById('author-new').value,
         date:document.getElementById('date-new').value,
         content:document.getElementById('new-content').value,
-    }
 
+    }
+    console.log(addedNews)
 
 });
 
