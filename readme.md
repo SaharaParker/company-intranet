@@ -1,7 +1,7 @@
 ### Problem
 - [x] staff member can login
 - [x] staff can view company news
-- [ ] staff can add company news
+- [x] staff can add company news
 
 ###Process
 - [x] Create company-intranet Folder
@@ -12,11 +12,11 @@
   - [x] HTML
   - [x] CSS
   - [x] JavaScript
-- [ ] Code for Company News Page
+- [x] Code for Company News Page
   - [x] HTML
   - [x] CSS
-  - [ ] JavaScript
-- [ ] Fix Any Errors
+  - [x] JavaScript
+- [ ] Fix Any Errors/Neaten up code
 - [ ] Make Sure Everything is Functioning
 - [x] Vercel
 
