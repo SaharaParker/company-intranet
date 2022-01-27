@@ -19,7 +19,7 @@ let allNews = [{
 const newsShow = document.getElementById('compnews');
 const form = document.getElementById('add-news');
 
-displayAllNews(allNews);
+displayAllNews(allNews)
 
 //event listener for add-news
 form.addEventListener('submit',(evt)=>{
@@ -38,9 +38,10 @@ form.addEventListener('submit',(evt)=>{
     // console.log(allNews);
     // console.log(addedNews)
 
-    items = [...allNews, addedNews];
-    displayAllNews(items);
-    console.log(items);
+    allNews = [...allNews, addedNews];
+
+    displayAllNews(allNews)
+    console.log(allNews);
 
 });
 
