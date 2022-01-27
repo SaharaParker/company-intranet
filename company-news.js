@@ -25,6 +25,8 @@ form.addEventListener('submit',(evt)=>{
     evt.preventDefault();
 
     console.log(document.getElementById('author-new').value);
+    console.log(document.getElementById('date-new').value);
+
 });
 
 
