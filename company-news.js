@@ -17,8 +17,9 @@ let allNews = [{
 
 
 const newsShow = document.getElementById('compnews');
-
 const form = document.getElementById('add-news');
+
+displayAllNews(allNews);
 
 //event listener for add-news
 form.addEventListener('submit',(evt)=>{
@@ -37,18 +38,15 @@ form.addEventListener('submit',(evt)=>{
     // console.log(allNews);
     // console.log(addedNews)
 
-    allNews = [...allNews, addedNews];
-
-    console.log(allNews);
+    items = [...allNews, addedNews];
+    displayAllNews(items);
+    console.log(items);
 
 });
 
 function displayAllNews(items) {
-    newsExist = ""
-
-    for(const key in items){
+   for(const key in items){
         const newsExist = document.createElement('div');
-
         newsExist.innerHTML=` 
             <div>
             <h3 class="font-semibold text-lg underline">${items[key].fullName}</h3>
@@ -61,6 +59,5 @@ function displayAllNews(items) {
     }
 }
 
-displayAllNews(allNews);
 
 
