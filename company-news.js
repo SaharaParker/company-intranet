@@ -23,7 +23,8 @@ const form = document.getElementById('add-news');
 //event listener for add-news
 form.addEventListener('submit',(evt)=>{
     evt.preventDefault();
-    console.log("HI!");
+
+    console.log(document.getElementById('author-new').value);
 });
 
 
