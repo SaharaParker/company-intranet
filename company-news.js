@@ -45,6 +45,8 @@ form.addEventListener('submit',(evt)=>{
 });
 
 function displayAllNews(items) {
+    newsShow.innerHTML = ""
+
    for(const key in items){
         const newsExist = document.createElement('div');
         newsExist.innerHTML=` 
