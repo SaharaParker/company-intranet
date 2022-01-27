@@ -1,4 +1,4 @@
-const allNews = [{
+let allNews = [{
         fullName: "Alice Atom",
         date: "12-27-2021",
         content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur ducimus eveniet facere id, ipsa iusto provident quas veritatis!"
@@ -14,7 +14,7 @@ const allNews = [{
                 content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur ducimus eveniet facere id, ipsa iusto provident quas veritatis!"
 }]; //made allnews into an array(list)
 
-console.log(allNews);
+
 
 const newsShow = document.getElementById('compnews');
 
@@ -24,9 +24,9 @@ const form = document.getElementById('add-news');
 form.addEventListener('submit',(evt)=>{
     evt.preventDefault();
 
-    // console.log(document.getElementById('author-new').value);
-    // console.log(document.getElementById('date-new').value);
-    // console.log(document.getElementById('new-content').value);
+    console.log(document.getElementById('author-new').value);
+    console.log(document.getElementById('date-new').value);
+    console.log(document.getElementById('new-content').value);
 
     const addedNews = {
         fullName:document.getElementById('author-new').value,
@@ -34,6 +34,7 @@ form.addEventListener('submit',(evt)=>{
         content:document.getElementById('new-content').value,
 
     }
+    console.log(allNews);
     console.log(addedNews)
 
 });
