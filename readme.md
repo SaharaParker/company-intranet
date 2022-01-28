@@ -8,7 +8,7 @@
 - [x] Create Github Repo
 - [X] Balsamiq Mockup
 - [x] Tailwindcss Installation
-- [ ] Code for Login Page
+- [x] Code for Login Page
   - [x] HTML
   - [x] CSS
   - [x] JavaScript
@@ -16,8 +16,7 @@
   - [x] HTML
   - [x] CSS
   - [x] JavaScript
-- [ ] Fix Any Errors/Neaten up code
-- [ ] Make Sure Everything is Functioning
+- [x] Make Sure Everything is Functioning
 - [x] Vercel
 
 
