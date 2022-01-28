@@ -1,16 +1,16 @@
 let allNews = [{
         fullName: "Alice Atom",
-        date: "12-27-2021",
+        date: "2021-12-27",
         content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur ducimus eveniet facere id, ipsa iusto provident quas veritatis!"
         }, {fullName:"Blake Bleak",
-            date:"12-28-2021",
+            date:"2021-12-28",
             content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur ducimus eveniet facere id, ipsa iusto provident quas veritatis!"
         }, {fullName:"Cara Cole",
-            date:"12-29-2021",
+            date:"2021-12-29",
             content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur ducimus eveniet facere id, ipsa iusto provident quas veritatis!",
         },
             {   fullName: "Drew Dean",
-                date: "12-30-2021",
+                date: "2021-12-30",
                 content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut consequatur ducimus eveniet facere id, ipsa iusto provident quas veritatis!"
 }]; //made allnews into an array(list)
 
